@@ -1,15 +1,38 @@
-h1{
+header{
+  background-color: gray;
+  height:220px;
+  width: 100%;
+}
+header svg{
+  height: 50%;
+  float: left;
+  padding: 0.5% 2%;
+}
+header aside{
+    width: 20%;
+    height: 400px;
+    float: left;
+}
+header article{
+  width: 80%;
+  height: 200px;
+  background-color: rgb(150, 185, 203);
+  float: right;
+}
+section[class^='logo']{
+  display: inline-block;
+}
+header h1{
   font-size: 30px;
   font-family: arial;
-  color: #1C2ABD
+  float: right;
 }
 h2{
   font-size: 25px;
   font-family: arial
 }
 img{
-  background-color: white;
-  border-radius: 10px
+
 }
 footer{
   margin-top: 20px;
