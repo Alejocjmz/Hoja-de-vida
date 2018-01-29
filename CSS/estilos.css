@@ -2,16 +2,13 @@ header{
   background-color: gray;
   height:220px;
   width: 100%;
-}
-header svg{
-  height: 50%;
-  float: left;
-  padding: 0.5% 2%;
+  padding: 0.5%
 }
 header aside{
-    width: 20%;
-    height: 400px;
-    float: left;
+  width: 20%;
+  height: 200px;
+  background-color: blue;
+  float: left;
 }
 header article{
   width: 80%;
@@ -19,40 +16,13 @@ header article{
   background-color: rgb(150, 185, 203);
   float: right;
 }
-section[class^='logo']{
-  display: inline-block;
-}
 header h1{
-  font-size: 30px;
-  font-family: arial;
-  float: right;
-}
-h2{
-  font-size: 25px;
   font-family: arial
 }
-img{
+header h2{
+  font-family: arial
+}
+header svg{
+  align-content: center;
 
-}
-footer{
-  margin-top: 20px;
-  margin-left: 50px;
-  margin-right: 50px
-}
-#contenedor{
-  font-family: helvetica;
-  font-size: 16px
-}
-#encabezado{
-  display: block;
-  margin: 0 auto
-}
-.item{
-  color: red
-}
-*{
-  margin: 1vh 1vw
-}
-h1 + h2{
-  text-decoration: underline;
 }
