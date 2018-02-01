@@ -1,28 +1,25 @@
+
 header{
-  background-color: gray;
-  height:220px;
-  width: 100%;
-  padding: 0.5%
+  background-color: #83BFFF;
+  width: 98%;
+  position: fixed;
+  top: 0;
+  display: inline-block;
 }
-header aside{
-  width: 20%;
-  height: 200px;
-  background-color: blue;
-  float: left;
-}
-header article{
-  width: 80%;
-  height: 200px;
-  background-color: rgb(150, 185, 203);
+header nav {
   float: right;
-}
-header h1{
-  font-family: arial
-}
-header h2{
-  font-family: arial
-}
-header svg{
-  align-content: center;
+  margin-right: 5px;
+
+  }
+header img {
+  float: left;
 
 }
+#titulo{
+  margin-top: 200px
+}
+footer{
+  clear: both;
+  width: 100%;
+  background-color: #B8BCC1;
+  }
