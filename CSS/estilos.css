@@ -6,14 +6,19 @@ header{
   top: 0;
   display: inline-block;
 }
-header nav {
-  float: right;
-  margin-right: 5px;
-
+.contenedor{
+  display: flex;
+  flex-direction:row;
   }
-header img {
-  float: left;
-
+img{
+  text-align: center;
+}
+#encabezado .contenedor > div{
+  text-align: center;
+	padding: 10px;
+	margin: 10px;
+	background-color: white;
+	width: 33%;
 }
 #titulo{
   margin-top: 200px
